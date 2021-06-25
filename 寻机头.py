@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun 15 13:42:56 2021
-
-@author: 小七
-"""
-
 import pygame
 import random
 import sys
@@ -244,7 +237,7 @@ def new_piece(s,GZ):
               }
     
     #将随机生成的飞机形状转换成二维数组插入到随机生成的相应位置
-    a=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    a=[0]*25
     m=0
     
     nps=newPiece['shape']
